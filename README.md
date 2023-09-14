@@ -6,14 +6,29 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
 
 #### 软件架构
-软件架构说明
 
+-优惠卷秒杀
+ 结合Lua完成高性能的redis操作，同时学会Redis分布式锁的原理，包括Redis的三种消息队列
 
-#### 安装教程
+- 附近的商户
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+我们利用Redis的GEOHash来完成对于地理坐标的操作
+
+- UV统计
+
+主要是使用Redis来完成统计功能
+
+- 用户签到
+
+使用Redis的BitMap数据统计功能
+
+- 好友关注
+
+基于Set集合的关注、取消关注，共同关注等等功能，这一块知识咱们之前就讲过，这次我们在项目中来使用一下
+
+- 达人探店
+
+基于List来完成点赞列表的操作，同时基于SortedSet来完成点赞的排行榜功能
 
 #### 使用说明
 
